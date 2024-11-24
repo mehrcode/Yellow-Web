@@ -1,0 +1,95 @@
+:root {
+    --primary-color: #ffdd00;
+    --dark-color: #121926;
+    --black-color: #040404;
+    --lightgray-color: #eaeaea;
+}
+body {
+    font-size: 16px;
+    background-color: rgb(251, 251, 251);
+    color: var(--dark-color);
+}
+.btn-custom { 
+    background-color: var(--primary-color); 
+    color: var(--dark-color);
+    border-radius: 8px;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+}
+.btn-custom:hover {
+    background-color: var(--dark-color);
+    color: #fff;
+}
+.btn-outline-secondary {
+    background-color: var(--dark-color);
+}
+
+.bx {
+    font-size: 35px;
+    color: var(--dark-color);
+}
+.yellow-boxes:hover {
+    background-color: var(--primary-color);
+    border-radius: 18px;
+    border: none;
+}
+.content-box:hover {
+    cursor: pointer;
+    background-color: var(--primary-color);
+}
+.content {
+    margin: 100px 100px;
+}
+.card-header {
+    background-color: var(--primary-color);
+}
+@media (max-width: 1023px) {
+    .part3 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.card:hover {
+    cursor: pointer;
+    border: 2px solid var(--primary-color);
+}
+@media (max-width: 580px) {
+    .testimonial {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: col;
+    }
+}
+.yellow-banner {
+    background-color: var(--primary-color);
+}
+
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 60px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: var(--primary-color); 
+    color: white; 
+    cursor: pointer; 
+    padding: 10px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: var(--lightgray-color); 
+  }
+  
+  .accordion .accordion-button {
+    --bs-accordion-btn-bg: #fff;
+    --bs-accordion-active-bg: var(--primary-color);
+    --bs-accordion-active-color: #333;
+    --bs-accordion-btn-focus-box-shadow: none;
+}
